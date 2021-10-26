@@ -1,0 +1,75 @@
+.footerbg {
+    background: $background-dark-color;
+    padding: 60px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__contacts {
+    margin-right: 70px;
+}
+
+.footer--logstudio {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer--logstudio,
+.footer-address__link--adress {
+    color: $main-light-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer--logstudio:hover,
+.footer--logstudio:focus {
+    color: $active-link-color;
+}
+
+.footer--logstudio:active {
+    color: $main-light-color;
+}
+
+.footer-address {
+    margin-top: 20px;
+}
+
+.footer-address__item {
+    margin-bottom: 9px;
+}
+
+.footer-address__link,
+.footer-address__link--adress {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-address__link--adress {
+    color: $main-light-color;
+    &:hover,
+    &:focus {
+        color: $active-link-color;
+    }
+}
+
+.footer-address__link {
+    color: $contact-color;
+    &:hover,
+    &:focus {
+        color: $active-link-color;
+    }
+    &:active {
+        color: $main-light-color;
+    }
+}
