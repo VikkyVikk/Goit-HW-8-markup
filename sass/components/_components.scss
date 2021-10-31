@@ -22,13 +22,31 @@ body {
 
 /*Контенер*/
 
-.container {
+
+/*.container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
+}*/
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        position: relative;
+    }
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+    @media screen and (min-width: 1140px) {
+        width: 1140px;
+    }
 }
 
 
