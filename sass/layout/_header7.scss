@@ -131,6 +131,12 @@
  }
  /* E-mail Tel*/
  
+ .contact {
+     display: flex;
+     margin-left: auto;
+     margin-right: 0;
+ }
+ 
  .contact__item {
      display: flex;
      justify-content: center;
@@ -159,12 +165,6 @@
      margin-right: 10px;
      fill: currentColor;
      padding: 0;
- }
- 
- .contact {
-     display: flex;
-     margin-left: auto;
-     margin-right: 0;
  }
  
  .contact .contact__item+.contact__item {
