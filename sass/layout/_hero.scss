@@ -5,23 +5,23 @@
     margin: 0 auto;
     text-align: center;
     padding: 118px 0;
-    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-mobile/header.jpg');
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-mobile/header-min.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     @media (min-resolution: 2dppx) {
-        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-mobile/header@2x.jpg');
+        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-mobile/header@2x-min.jpg');
     }
     @media screen and (min-width: 480px) {
-        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-tablet/header-t.jpg');
+        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-tablet/header-t-min.jpg');
         @media (min-resolution: 2dppx) {
-            background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-tablet/header-t2x.jpg');
+            background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-tablet/header-t2x-min.jpg');
         }
     }
     @media screen and (min-width: 769px) {
-        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-desktop/header-d.jpg');
+        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-desktop/header-d-min.jpg');
         @media (min-resolution: 2dppx) {
-            background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-desktop/header-d@2x.jpg');
+            background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../imeges-desktop/header-d@2x-min.jpg');
         }
     }
     @media screen and (min-width: 1200px) {
@@ -29,32 +29,6 @@
         padding-bottom: 200px;
     }
 }
-
-
-/*&.image-overlay {
-        width: 100%;
-        margin: 0;
-        padding: 0px 0px 50% 0px;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }*/
-
-
-/* Фон под Героем с градиентом*/
-
-
-/*.overlay {
-                                                                        position: relative;
-                                                                        max-height: 100%;
-                                                                        margin-left: auto;
-                                                                        margin-right: auto;
-                                                                        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images3/overlay1.jpg');
-                                                                        background-repeat: no-repeat;
-                                                                        background-position: center;
-                                                                        background-size: cover;
-                                                                    }*/
 
 
 /* Эффективные решения для вашего бизнеса */
