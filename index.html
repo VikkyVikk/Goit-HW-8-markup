@@ -44,22 +44,23 @@
                             </li>
                         </ul>
                     </nav>
-                    <ul class="contact list">
-                        <li class="contact__item">
-                            <a class="contact__link" href="mailto:info@devstudio.com">
-                                <svg class="contact__icon" width="16" height="12">
+
+                    <div class="header__contacts">
+                        <ul class="contact list">
+                            <li class="contact__item">
+                                <a class=" contact__link contact__link--tab" href="mailto:info@devstudio.com">
+                                    <svg class="contact__icon" width="16" height="12">
                             <use href="./images3/iconssprite.svg#icon-envelope111"></use></svg>info@devstudio.com</a>
-                        </li>
-                        <li class="contact__item">
-                            <a class="contact__link" href="tel:+380961111111"><svg class="contact__icon" width="10" height="16">
+                            </li>
+                            <li class="contact__item">
+                                <a class="contact__link" href="tel:+380961111111"><svg class="contact__icon" width="10" height="16">
                                 <use href="./images3/iconssprite.svg#icon-smartphone111"></use>
                                 </svg>+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </div>
 
-
-                        </li>
-                    </ul>
                 </div>
-
             </div>
         </header>
         <!--МОБИЛЬНОЕ МЕНЮ-->
@@ -70,14 +71,15 @@
       </button>
             <div class="menu-box">
                 <ul class="mobile-menu mobile-menu--pages list">
-                    <li class="mobile__link"><a href="" class="link">Студия</a></li>
-                    <li class="mobile__link"><a href="" class="link">Портфолио</a></li>
+                    <li class="mobile__link"><a href="./index.html" class="link current">Студия</a></li>
+                    <li class="mobile__link">
+                        <a href="./portfolio.html" class="link">Портфолио</a></li>
                     <li class="mobile__link"><a href="" class="link">Контакты</a></li>
 
                 </ul>
                 <div class="contact-cocial--menu">
                     <ul class="mobile-menu mobile-menu--cont list">
-                        <li class="contact__item--menu  mobile__link">
+                        <li class="contact__item--menu mobile__link">
                             <a class="contact__link--tel" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                         <li class="contact__item--menu mobile__link">
@@ -197,7 +199,7 @@
                     <li class="team-card">
                         <picture>
                             <source srcset="./imeges-mobile/team1-min.jpg 1x, ./imeges-mobile/team1@2x-min.jpg 2x" media="(max-width: 767px)">
-                            <source srcset="./imeges-tablet/team-t1-min.jpg 1x, ./imeges-tablet/project-t1@2x-min.jpg 2x" media=" (max-width: 1199px)">
+                            <source srcset="./imeges-tablet/team-t1-min.jpg 1x, ./imeges-tablet/team-t1@2x-min.jpg 2x" media=" (max-width: 1199px)">
                             <source srcset="./imeges-desktop/team-d1-min.jpg 1x, ./imeges-desktop/team-d1-min@2x.jpg 2x" media="(min-width: 1200px)">
 
 
@@ -252,7 +254,7 @@
                     <li class=" team-card">
                         <picture>
                             <source srcset="./imeges-mobile/team2-min.jpg 1x, ./imeges-mobile/team2@2x-min.jpg 2x" media="(max-width: 767px)">
-                            <source srcset="./imeges-tablet/team-t2-min.jpg 1x, ./imeges-tablet/project-t2@2x-min.jpg 2x" media=" (max-width: 1199px)">
+                            <source srcset="./imeges-tablet/team-t2-min.jpg 1x, ./imeges-tablet/team-t2@2x-min.jpg 2x" media=" (max-width: 1199px)">
                             <source srcset="./imeges-desktop/team-d2-min.jpg 1x, ./imeges-desktop/team-d2-min@2x.jpg 2x" media="(min-width: 1200px)">
 
 
@@ -307,7 +309,7 @@
                     <li class=" team-card">
                         <picture>
                             <source srcset="./imeges-mobile/team3-min.jpg 1x, ./imeges-mobile/team3@2x-min.jpg 2x" media="(max-width: 767px)">
-                            <source srcset="./imeges-tablet/team-t3-min.jpg 1x, ./imeges-tablet/project-t3@2x-min.jpg 2x" media=" (max-width: 1199px)">
+                            <source srcset="./imeges-tablet/team-t3-min.jpg 1x, ./imeges-tablet/team-t3@2x-min.jpg 2x" media=" (max-width: 1199px)">
                             <source srcset="./imeges-desktop/team-d3-min.jpg 1x, ./imeges-desktop/team-d3-min@2x.jpg 2x" media="(min-width: 1200px)">
                             <img src="./imeges-mobile/team3-min.jpg" alt="Член команды 3" />
                         </picture>
@@ -361,7 +363,7 @@
                         <!-- Фото члена команды 4 -->
                         <picture>
                             <source srcset="./imeges-mobile/team4-min.jpg 1x, ./imeges-mobile/team4@2x-min.jpg 2x" media="(max-width: 767px)">
-                            <source srcset="./imeges-tablet/team-t4-min.jpg 1x, ./imeges-tablet/project-t4@2x-min.jpg 2x" media=" (max-width: 1199px)">
+                            <source srcset="./imeges-tablet/team-t4-min.jpg 1x, ./imeges-tablet/team-t4@2x-min.jpg 2x" media=" (max-width: 1199px)">
                             <source srcset="./imeges-desktop/team-d4-min.jpg 1x, ./imeges-desktop/team-d4-min@2x.jpg 2x" media="(min-width: 1200px)">
                             <img src="./imeges-mobile/team4-min.jpg" alt="Член команды 4" />
                         </picture>
@@ -467,7 +469,7 @@
         <div class="footer container">
             <div class="footer-tabform">
                 <div class="footer__contacts">
-                    <a href="#" class="logo">Web<span class="logo footer--logstudio">Studio</span></a>
+                    <a href="#" class="logo footer__logo">Web<span class="logo footer--logstudio">Studio</span></a>
                     <address class="footer-address">
         <ul class="footer-address__list list">
             <li class="footer-address__item"><a class="footer-address__link--adress" href="г.Киев,пр-тЛесиУкраинки26" >г. Киев, пр-т Леси Украинки, 26</a></li>
