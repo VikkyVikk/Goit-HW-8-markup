@@ -216,7 +216,6 @@ ul {
     display: -ms-flexbox;
     display: flex;
     margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -234,6 +233,7 @@ ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: auto;
   }
 }
 
@@ -307,6 +307,16 @@ ul {
 }
 
 /*_________________________КОНТАКТЫ______________________*/
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 360px;
+    margin-left: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header__contacts {
     display: block;
@@ -348,6 +358,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: auto;
   }
   .contact {
     display: -webkit-box;
@@ -391,13 +402,21 @@ ul {
     color: #2196f3;
     fill: #2196f3;
   }
-  .contact__link--tab {
+  .contact__link.contact__link--tab {
     padding-top: 21px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
   }
   .contact__icon {
     margin-right: 10px;
     fill: currentColor;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -642,16 +661,6 @@ ul {
   }
 }
 
-.section-properties__item {
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-bottom: 30px;
-}
-
-.section-properties__item:nth-child(4) {
-  margin-bottom: 0;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-properties__item {
     margin-left: 30px;
@@ -665,7 +674,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .section-properties__item {
-    min-width: 270px;
+    width: 270px;
     margin-right: 30px;
     margin-left: 0;
   }
@@ -768,6 +777,13 @@ ul {
 @media screen and (max-width: 1199px) {
   .employment-section {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .employment-section.section {
+    padding-top: 0px;
+    padding-bottom: 94 px;
   }
 }
 
@@ -2661,7 +2677,7 @@ ul {
 .contact__link--tel {
   color: #2196f3;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 8vw;
   line-height: 1.25;
   letter-spacing: 0.02em;
   text-decoration: none;

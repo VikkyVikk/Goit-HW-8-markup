@@ -10,12 +10,12 @@
             .form-checkbox__label {
                 font-size: 14px;
                 line-height: 1.2;
-                color: #757575;
+                color: $main-grey-color;
                 display: flex;
                 position: relative;
                 align-items: center;
                 & span {
-                    display: flex;
+                    display: inline-flex;
                     align-items: center;
                     justify-content: center;
                     width: 16px;
