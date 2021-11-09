@@ -1,0 +1,126 @@
+.hero {
+    background-color: $background-dark-color;
+    padding: 118px 0;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+      padding: 200px 0;
+    }
+  }
+  .hero__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $main-light-color;
+    margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      line-height: 1.36;
+    }
+    @media screen and (max-width: 479px) {
+      font-size: 6vw;
+    }
+  }
+  .hero__button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: $active-link-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: $main-light-color;
+    transition: color 250ms linear, background-color 250ms linear;
+    &:hover,
+    &:focus {
+        background-color: $background-link-color;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+  }
+  .overlay {
+    height: 400px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../imeges-mobile/header-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../imeges-mobile/header@2x-min.jpg);
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .overlay {
+      height: 400px;
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../imeges-tablet/header-t-min.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url(../imeges-tablet/header-t2x-min.jpg);
+      }
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .overlay {
+      height: 600px;
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../imeges-desktop/header-d-min.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url(../imeges-desktop/header-d@2x-min.jpg);
+      }
+    }
+  }
